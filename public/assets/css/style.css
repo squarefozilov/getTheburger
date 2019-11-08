@@ -1,0 +1,41 @@
+ 
+.main{
+  text-align: center;
+}
+.div1{
+ float: left;
+ height: 50%;
+ text-align: center;
+}
+.devour{
+   
+  float: left;
+  text-align: center;
+}
+.form{
+   
+  text-align: center;
+ 
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+ 
+
+html {
+  background-color: #FFC04C;
+}
+
+body {
+ width: 75%;
+ margin: 0 auto; 
+ display: flex;
+}

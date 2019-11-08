@@ -1,0 +1,39 @@
+
+<div class="main"> 
+    <div class="div1">
+      <h1>Burgers</h1>
+      <ul>
+      {{#each burgers}}
+        {{#unless devour}}
+
+          {{> cats/cat-block sleep=true}}
+          
+        {{/unless}}
+      {{/each}}
+    </ul>
+    </div>
+
+      <div class="devour"> 
+        <h2>Devoute</h2>
+          <ul class="new">
+            {{#each burgers}}
+              {{#if devoured}}
+
+                
+                {{> cats/cat-block sleep=false}}
+
+              {{/if}}
+            {{/each}}
+          </ul>
+      </div>
+
+ <div>
+
+   <form class="create-form form">
+     <input type="text" id="ca" name="name"></br></br>
+     <button type="submit" class="btn btn-primary" >Submit</button> </br>
+     <label for="ca"> Enter a burger you want to eat Click the "Submit" Button</label>
+    </form>
+</div>
+
+</div>

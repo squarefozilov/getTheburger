@@ -1,0 +1,9 @@
+<li>
+    <input type="text" class="" data-id="{{this.id}}" {{#if devoured}} value="{{this.burger_name}}" {{else}}value="{{this.burger_name}}" readonly {{/if}} >
+		{{#if devoured}}
+		<button class="change-sleep" data-id="{{id}}" data-newsleep="{{devoured}}">
+		Devour
+		</button>
+		{{/if}}
+	</button>
+</li>
